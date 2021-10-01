@@ -43,11 +43,11 @@ async def help_user(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,Darling You're Banned Lol")
+               await update.reply_text(" Sorry, Darling You're Banned Lol")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey [Baka](https://telegra.ph/file/f0923205206aa7c4fa323.mp4)...✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
@@ -60,12 +60,12 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Rename📝', callback_data = "rnme"),
-                    InlineKeyboardButton('File To Video📂', callback_data = "f2v")
+                    InlineKeyboardButton('Rename 📝', callback_data = "rnme"),
+                    InlineKeyboardButton('File To Video 📂', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('Custom Thumbnail🎞️', callback_data = "cthumb"),
-                    InlineKeyboardButton('Custom Caption📑', callback_data = "ccaption")
+                    InlineKeyboardButton('Custom Thumb 🎞️', callback_data = "cthumb"),
+                    InlineKeyboardButton('Custom Caption 📑', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('⚜ About', callback_data = "about")
@@ -84,11 +84,11 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner VN Sama Removed You From Using Me, If You Think It's An Error Contact : @NarutoRobot_Support")
+               await update.reply_text(" Sorry, You've Been Flooding Me So My Owner VN Sama Removed You From Using Me, If You Think It's An Error Contact : @NarutoRobot_Support")
                return
         except UserNotParticipant:
             await update.reply_text(
-                text="**Hey✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
+                text="**Hey [Baka](https://telegra.ph/file/f0923205206aa7c4fa323.mp4)...✨ Due To The Huge Traffic Only Group Members Can Use This Bot Means You Need To Join The Below Mentioned Group Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text="❣ Join My Anime Group ❣", url=f"https://t.me/{update_channel}")]
               ])
@@ -103,7 +103,7 @@ async def start_me(bot, update):
                 ],
                 [
                     InlineKeyboardButton('My Support', url='https://t.me/NarutoRobot_Support'),
-                    InlineKeyboardButton("Help", callback_data = "ghelp")
+                    InlineKeyboardButton("Help 🤘🏻", callback_data = "ghelp")
                 ],
                 [
                     InlineKeyboardButton('⚡ Network ⚡', url='https://t.me/Animesigma_Network'),
@@ -192,12 +192,12 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Rename📝', callback_data = "rnme"),
-                    InlineKeyboardButton('File To Video📂', callback_data = "f2v")
+                    InlineKeyboardButton('Rename 📝', callback_data = "rnme"),
+                    InlineKeyboardButton('File To Video 📂', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('Custom Thumbnail🎞️', callback_data = "cthumb"),
-                    InlineKeyboardButton('Custom Caption📑', callback_data = "ccaption")
+                    InlineKeyboardButton('Custom Thumb 🎞️', callback_data = "cthumb"),
+                    InlineKeyboardButton('Custom Caption 📑', callback_data = "ccaption")
                 ],
                 [
                     InlineKeyboardButton('⚜ About', callback_data = "about")
