@@ -1,5 +1,5 @@
 class Translation(object):
-    START_TEXT = """ <b>OwO Hey There {}, \nI'm [Ai Hayasaka](https://telegra.ph/file/3ad072d8e83028e75c4ee.jpg) VN's Waifu & A Bot, Checkout Help Button to Know more Yay! 😁</b> \n
+    START_TEXT = """ <b>OwO Hey There {}, \nIt's [Ai Hayasaka](https://telegra.ph/file/3ad072d8e83028e75c4ee.jpg) This Side...I'm VN's Waifu & A Bot, Checkout Help Button to Know more Yay! 😁</b> \n
 
 <b>My Dear Owner: @Vedant_vn 👀✌</b> \n 
 """
